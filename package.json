@@ -1,0 +1,6 @@
+{
+  "name": "ingaz-delivery",
+  "scripts": {
+    "start": "node backend/server.js"
+  }
+}
