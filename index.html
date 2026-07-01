@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>انجاز - التوصيل في متناول يدك</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ===== Header ===== -->
+  <header class="header">
+    <div class="header-top">
+      <div class="container">
+        <div class="header-info">
+          <span><i class="fas fa-phone-alt"></i> 0100 123 4567</span>
+          <span><i class="fas fa-envelope"></i> info@ingaz.com</span>
+          <span><i class="fas fa-clock"></i> ٨ صباحاً - ١٢ منتصف الليل</span>
+        </div>
+        <span><i class="fas fa-map-marker-alt"></i> توصيل لجميع أنحاء المدينة</span>
+      </div>
+    </div>
+    <div class="header-main">
+      <div class="container">
+        <a href="#" class="logo">
+          <div class="logo-icon">إ</div>
+          <div class="logo-text"><span>إ</span>نجاز</div>
+        </a>
+        <div class="search-box">
+          <i class="fas fa-search"></i>
+          <input type="text" id="searchInput" placeholder="ابحث عن متجر أو منتج...">
+        </div>
+        <div class="header-actions">
+          <button id="cartBtn" class="cart-btn">
+            <i class="fas fa-shopping-cart"></i>
+            <span class="cart-count" id="cartCount">0</span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- ===== Hero ===== -->
+  <section class="hero">
+    <div class="container">
+      <div class="hero-content">
+        <div class="hero-badge"><i class="fas fa-bolt"></i> توصيل سريع في أقل من ٣٠ دقيقة</div>
+        <h1>كل اللي تحتاجه <span>من السوبرماركت والمطاعم والمحلات</span> في مكان واحد</h1>
+        <p>انجاز بتوصلك كل اللي عاوزه من السوبرماركت والمطاعم والمحلات في البلد لحد باب البيت بسرعة وجودة عالية</p>
+        <div class="hero-buttons">
+          <button id="browseStores" class="btn btn-primary"><i class="fas fa-store"></i> تسوق الآن</button>
+          <a href="#categories" class="btn btn-outline"><i class="fas fa-list"></i> تصفح الأقسام</a>
+        </div>
+      </div>
+      <div class="hero-image">
+        <img src="https://images.unsplash.com/photo-1488459716781-31db52582fe9?w=400&h=400&fit=crop" alt="توصيل انجاز">
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Stats ===== -->
+  <section class="stats">
+    <div class="container">
+      <div class="stats-grid">
+        <div class="stat-item">
+          <div class="stat-number">+٥٠</div>
+          <div class="stat-label">متجر ومطعم</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-number">+١٠٠٠</div>
+          <div class="stat-label">منتج متنوع</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-number">+٥٠٠٠</div>
+          <div class="stat-label">عميل سعيد</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-number">&lt; ٣٠</div>
+          <div class="stat-label">دقيقة توصيل</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Categories ===== -->
+  <section class="section categories-section" id="categories">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">تصفح <span>الأقسام</span></h2>
+        <a href="#" class="section-link">عرض الكل <i class="fas fa-arrow-left"></i></a>
+      </div>
+      <div class="categories-scroll" id="categories"></div>
+    </div>
+  </section>
+
+  <!-- ===== Stores ===== -->
+  <section class="section stores-section">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">المتاجر <span>والمطاعم</span></h2>
+        <span style="color: var(--gray-700); font-size: 14px;">اضغط على المتجر لعرض المنتجات</span>
+      </div>
+      <div class="stores-grid" id="storesGrid"></div>
+    </div>
+  </section>
+
+  <!-- ===== Footer ===== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-about">
+          <div class="logo" style="margin-bottom: 10px;">
+            <div class="logo-icon">إ</div>
+            <div class="logo-text"><span>إ</span>نجاز</div>
+          </div>
+          <p>منصة انجاز للتوصيل بتوفرلك كل اللي محتاجه من السوبرماركت والمطاعم والمحلات في مدينتك، اطلب أي حاجة ونوصلهالك لحد باب البيت بسرعة وجودة عالية.</p>
+          <div class="social-links">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-whatsapp"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+          </div>
+        </div>
+        <div>
+          <h4>روابط سريعة</h4>
+          <ul class="footer-links">
+            <li><a href="#"><i class="fas fa-chevron-left"></i> السوبرماركت</a></li>
+            <li><a href="#"><i class="fas fa-chevron-left"></i> المطاعم</a></li>
+            <li><a href="#"><i class="fas fa-chevron-left"></i> المحلات</a></li>
+            <li><a href="#"><i class="fas fa-chevron-left"></i> العروض</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>خدمة العملاء</h4>
+          <ul class="footer-links">
+            <li><a href="#"><i class="fas fa-chevron-left"></i> اتصل بنا</a></li>
+            <li><a href="#"><i class="fas fa-chevron-left"></i> سياسة الخصوصية</a></li>
+            <li><a href="#"><i class="fas fa-chevron-left"></i> الشروط والأحكام</a></li>
+            <li><a href="#"><i class="fas fa-chevron-left"></i> الأسئلة الشائعة</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>تواصل معنا</h4>
+          <ul class="footer-links" style="font-size: 14px; color: var(--gray-400);">
+            <li><i class="fas fa-phone-alt" style="margin-left: 8px;"></i> 0100 123 4567</li>
+            <li><i class="fas fa-envelope" style="margin-left: 8px;"></i> info@ingaz.com</li>
+            <li><i class="fas fa-map-marker-alt" style="margin-left: 8px;"></i> وسط المدينة - الطابق الثالث</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>جميع الحقوق محفوظة &copy; 2026 انجاز للتوصيل</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ===== Products Modal ===== -->
+  <div class="products-section" id="productsSection">
+    <div class="products-panel">
+      <div class="products-header">
+        <div>
+          <h2 id="productsTitle"></h2>
+        </div>
+        <button class="close-products" id="closeProducts"><i class="fas fa-times"></i></button>
+      </div>
+      <div class="products-grid" id="productsGrid"></div>
+    </div>
+  </div>
+
+  <!-- ===== Cart Sidebar ===== -->
+  <div class="cart-overlay" id="cartOverlay"></div>
+  <div class="cart-sidebar" id="cartSidebar">
+    <div class="cart-header">
+      <h3><i class="fas fa-shopping-cart"></i> سلة المشتريات <span id="cartCountSide">0</span></h3>
+      <button class="close-cart" id="closeCart"><i class="fas fa-times"></i></button>
+    </div>
+    <div class="cart-items" id="cartItems"></div>
+    <div class="cart-footer">
+      <div class="cart-total">
+        <span>الإجمالي</span>
+        <span id="cartTotal">0 ج.م</span>
+      </div>
+      <button class="checkout-btn" id="checkoutBtn"><i class="fas fa-check-circle"></i> إتمام الطلب</button>
+    </div>
+  </div>
+
+  <!-- ===== Checkout Modal ===== -->
+  <div class="checkout-modal" id="checkoutModal">
+    <div class="checkout-panel">
+      <h2><i class="fas fa-file-invoice"></i> تفاصيل الطلب</h2>
+      <p>أدخل معلوماتك لإتمام الطلب</p>
+      <form id="checkoutForm">
+        <div class="form-group">
+          <label>الاسم بالكامل *</label>
+          <input type="text" name="name" placeholder="أدخل اسمك" required>
+        </div>
+        <div class="form-row">
+          <div class="form-group">
+            <label>رقم الهاتف *</label>
+            <input type="tel" name="phone" placeholder="01xxxxxxxxx" required>
+          </div>
+          <div class="form-group">
+            <label>طريقة الدفع</label>
+            <select name="payment">
+              <option value="cash">الدفع عند الاستلام</option>
+              <option value="card">بطاقة ائتمان</option>
+            </select>
+          </div>
+        </div>
+        <div class="form-group">
+          <label>العنوان بالتفصيل *</label>
+          <textarea name="address" placeholder="الشارع - المنطقة - المدينة - رقم المبنى - الطابق - الشقة" required></textarea>
+        </div>
+        <div class="form-group">
+          <label>ملاحظات إضافية</label>
+          <textarea name="notes" placeholder="أي ملاحظات للمندوب (اختياري)"></textarea>
+        </div>
+        <div class="order-summary">
+          <h4>ملخص الطلب</h4>
+          <div id="checkoutItems"></div>
+          <div class="order-summary-total">
+            <span>الإجمالي الكلي</span>
+            <span id="checkoutTotal">0 ج.م</span>
+          </div>
+        </div>
+        <div style="display: flex; gap: 10px;">
+          <button type="button" class="btn btn-outline light close-checkout" style="flex:1; justify-content:center;">رجوع</button>
+          <button type="submit" class="submit-order" id="submitOrder" style="flex:2;"><i class="fas fa-check-circle"></i> تأكيد الطلب</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <!-- ===== Success Modal ===== -->
+  <div class="success-modal" id="successModal">
+    <div class="success-content">
+      <i class="fas fa-check-circle"></i>
+      <h2>تم استلام طلبك!</h2>
+      <p>شكراً لتسوقك مع انجاز. سيتم تجهيز طلبك وتوصيله في أقرب وقت ممكن. هنتصل بك لتأكيد الطلب.</p>
+      <button class="btn btn-primary" id="continueShopping"><i class="fas fa-store"></i> متابعة التسوق</button>
+    </div>
+  </div>
+
+  <!-- ===== Toast ===== -->
+  <div class="toast" id="toast"></div>
+
+  <!-- ===== Scripts ===== -->
+  <script src="js/data.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>
